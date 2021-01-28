@@ -116,3 +116,35 @@ console.log(Math.sin(60));
 
 console.log(Math.cos(0));
 console.log(Math.cos(60));
+
+// strings
+
+let space = ' ';
+let firstName = 'Ken';
+let lastName = 'DeWitt';
+let country = 'Canada';
+let city = 'Winnipeg';
+let language = 'JavaScript';
+let job = 'Programmer';
+let quote = "The saying, 'Seeing is Believing' is not correct in 2020.";
+let quoteWithBackTick = `The saying, 'Seeing is Believing' is not correct in 2020.`
+
+// string concatenation
+
+let fullName = firstName + space + lastName; // concatenation, merging two string together.
+let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country;
+
+console.log(fullName);
+console.log(personInfoOne);
+
+// long literal strings
+
+const paragraph = "My name is Ken DeWitt. I live in Winnipeg, Canada.\
+I am a Programmer and programming is very fulling. I am programming in HTML, CSS \
+for anyone who is interested. \
+In the beginning of 2021, I was thinking to expand my kenwledge by learning Pyhton \
+through github and I started a javascript challenge from January.\
+It was one of the most rewarding and inspiring experience.\
+I hope you are enjoying too."
+
+console.log(paragraph);
